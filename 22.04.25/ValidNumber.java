@@ -19,7 +19,7 @@ public class ValidNumber {
                 continue;
             } else if (c < '0' || c > '9') {
                 valid = false;
-                break;
+                break; 
             }
         }
         if (valid && !str.equals("-") && !str.equals(".")) System.out.println("Valid");
